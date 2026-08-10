@@ -7,7 +7,7 @@ const FORM_CONFIG = {
 
   buttons: {
     defaultNext: "Siguiente",
-    intro: "Empezar el viaje 💎",
+    intro: "Empezar el viaje",
     userData: "Vamos",
     summary: "Más",
     q8: "Mi Espejo 🪞",
@@ -33,7 +33,7 @@ const FORM_CONFIG = {
   },
 
   introScreen: {
-    title: "Exploración SÉA:<br>UN ESPEJO DE TU VERDAD",
+    title: "Exploración SÉA:<br>TU ESPEJO DE VERDAD",
     paragraphs: [
       "<em>Esto no es una evaluación ni un diagnóstico.</em><br><strong>Nadie conoce tu camino mejor que tú misma.</strong>",
       "<em>Esto es un espejo.</em><br>Un espacio de 5 minutos para bajar el volumen del ruido mental, respirar y observar el momento que habitas hoy con total amabilidad.",
@@ -49,7 +49,7 @@ const FORM_CONFIG = {
   },
 
   summaryScreen: {
-    titlePrefix: "Tu Espejo de Verdad está totalmente limpio, ",
+    titlePrefix: "TU ESPEJO DE VERDAD está totalmente limpio, ",
     paragraphsBeforeAnswers: [
       "No hay etiquetas para tí aquí, porque <strong>nadie sabe mejor que tú cómo estás viviendo.</strong>",
       "Al leer tus respuestas, has declarado con total honestidad que hoy:"
@@ -139,7 +139,7 @@ const FORM_CONFIG = {
       type: "question",
       id: "q1",
       multiple: true,
-      title: `<strong>1. ¿Cómo te sientes la mayor parte del tiempo en tu día?</strong><br><em>Siente tu estado actual. Puedes marcar varias opciones o matizar tu respuesta en la última casilla.</em>`,
+      title: `<strong>1. ¿Cómo te sientes la mayor parte del tiempo en tu día? Siente tu estado actual.</strong><br><em>Puedes marcar varias opciones o matizar tu respuesta en la última casilla.</em>`,
       options: [
         "Noto que mi rutina se mueve a un ritmo muy rápido; tiendo a encadenar una tarea con otra y a veces me cuesta concederme el permiso de parar de forma natural.",
         "Siento que tengo mucha claridad mental sobre lo que me ocurre y lo que necesito, pero a veces me resulta difícil trasladar esa teoría a mis acciones diarias.",
@@ -152,7 +152,7 @@ const FORM_CONFIG = {
       type: "question",
       id: "q2",
       multiple: true,
-      title: `<strong>2. Si hoy tuvieras que tomar una decisión difícil para priorizarte (poner un límite amable, decir "no", delegar...):</strong><br><em>¿Cómo te relacionas con ese espacio de decisión?</em>`,
+      title: `<strong>2. Si hoy tuvieras que tomar una decisión difícil para priorizarte (poner un límite amable, decir "no", delegar...):</strong><br>¿Cómo te relacionas con ese espacio de decisión?`,
       options: [
         "Tiendo a postergar mis necesidades y a sobrecargarme para cuidar de las necesidades o expectativas de los demás, postergando mi propio espacio.",
         "Le doy muchas vueltas en mi cabeza antes de dar el paso; busco el momento ideal analizando pros y contras y al final me cuesta concretar la acción.",
@@ -204,7 +204,7 @@ const FORM_CONFIG = {
       type: "question",
       id: "q6",
       multiple: true,
-      title: `<strong>6. ¿Qué experimentas cuando te detienes un momento en absoluto silencio y quietud?</strong> <em>Quédate en silencio 10 segundos ahora mismo. ¿Qué te dice tu cuerpo?</em>`,
+      title: `<strong>6. ¿Qué experimentas cuando te detienes un momento en absoluto silencio y quietud?</strong> Quédate en silencio 10 segundos ahora mismo. ¿Qué te dice tu cuerpo?`,
       options: [
         "Percibo agitación física (como una prisa eléctrica o tensión acumulada) que me invita a volver a moverme o a buscar algo que hacer.",
         "Noto que vivo muy concentrada en mis pensamientos, costándome registrar con nitidez las sensaciones y necesidades reales de mi cuerpo físico.",
@@ -218,6 +218,7 @@ const FORM_CONFIG = {
       id: "q7",
       multiple: true,
       title: `<strong>7. Mira a tu alrededor ahora mismo, en el rincón donde sueles descansar o trabajar en casa. ¿Qué te devuelve ese espacio?</strong>`,
+      button: "Mi Espejo 🪞",
       options: [
         "Cierto ruido visual o acumulación de cosas, lo que me refleja la velocidad y la falta de espacio de calma que a veces llevo dentro.",
         "Un entorno ordenado y funcional, pero que siento un poco frío o rígido, sin esa alma que me invite a recargarme y a ser yo misma.",
@@ -233,8 +234,8 @@ const FORM_CONFIG = {
       id: "q8",
       multiple: false,
       noTruth: true,
-      title: `Después de observar tu ESPEJO DE VERDAD y sabiendo que solo tú sabes lo que necesitas, <strong><br>8. ¿cuál de estos cuatro anclajes o medicina sientes que quieres priorizar en tu día?</br></strong><br><em>(Selecciona solo una opción)</em>`,
-      button: "Mi Espejo 🪞",
+      title: `Después de observar TU ESPEJO DE VERDAD y sabiendo que solo tú sabes lo que necesitas, <strong><br><br>8. ¿Cuál de estos cuatro anclajes o medicina sientes que quieres priorizar en tu día?</br></br></strong><br><em>(Selecciona solo una opción)</em>`,
+      button: "Mi Medicina",
       options: [
         "CALMA. Para vaciar: Necesito bajar el ritmo de mi cabeza, simplificar mis días y concederme momentos de quietud para volver a escucharme.",
         "ESTRUCTURA. Para asentar: Necesito aprender a poner límites amables, ordenar mi tiempo y mis prioridades para tener claridad y enfoque en mi día a día.",
