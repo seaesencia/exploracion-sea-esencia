@@ -1,9 +1,9 @@
 const FORM_CONFIG = {
   appsScriptUrl: "https://script.google.com/macros/s/AKfycbzb17R_p-c8055YXAjahviaz2VthA1f5TAbhBku6G5kw7qaceWpCbqCoVLvtYkMORcH/exec",  
-  whatsappNumber: "34670863944",
-  whatsappMessage: "Hola Abigeil, he completado mi Espejo de Verdad SÉA. Me encantaría que charláramos un ratito para conocernos y agendar nuestra sesión de sintonía.",
-  waitlistMessage: "Hola Abigeil, he completado mi Espejo de Verdad y me encantaría que me guardases plaza prioritaria sin compromiso para la próxima ronda de SÉA.",
-  instagramUrl: "https://www.instagram.com/sea__estudio/",
+  whatsappNumber: "34711216249",
+  whatsappMessage: "Hola Abigeil, he completado mi ESPEJO DE VERDAD - SÉA Esencia. Me encantaría que charláramos un ratito para conocernos y agendar nuestra sesión de sintonía.",
+  waitlistMessage: "Hola Abigeil, he completado mi ESPEJO DE VERDAD y me encantaría que me guardases plaza prioritaria sin compromiso para la próxima ronda de SÉA Esencia.",
+  instagramUrl: "https://www.instagram.com/sea.esencia/",
 
   buttons: {
     defaultNext: "Siguiente",
@@ -94,17 +94,17 @@ const FORM_CONFIG = {
 
   finalScreens: {
     ideal: {
-      titlePrefix: "Tu Espejo y tu Medicina ya están claros, ",
+      titlePrefix: "TU ESPEJO y TU MEDICINA ya están claros, ",
       heading: "SÉA es un acompañamiento uno a uno muy exclusivo.<br>Tras leer tus respuestas, siento que estás en el momento ideal para que caminemos juntas.",
-      body: "<em>Me encantaría que me escribas por WhatsApp para que nos conozcamos un poquito más de cerca.</em><br>Si lo sientes, podemos agendar un primer encuentro gratuito (una charla íntima de 15 minutos, sin ningún tipo de compromiso) para sentir si estamos en total sintonía y valorar juntas si este es tu espacio.",
+      body: "<em>Me encantaría que me escribas por WhatsApp para que nos conozcamos un poquito más de cerca.</em><br>Si lo sientes, podemos agendar un primer encuentro gratuito (un encuentro de 15 minutos, sin ningún tipo de compromiso) para sentir si estamos en total sintonía y valorar juntas si este es tu espacio.",
       linkText: "Escribir a Abigeil por WhatsApp 🐚",
       linkType: "whatsapp",
-      footer: "Tu PDF personalizado con tu Medicina ya está viajando a tu bandeja de entrada.<br>Deseo que sus rituales e ideas te traigan muchísima luz hoy."
+      footer: "Tu PDF personalizado con tu Medicina ya está viajando a tu bandeja de entrada.<br>Deseo que sus activaciones e ideas te traigan muchísima luz hoy."
     },
 
     instagram: {
       titlePrefix: "Gracias de corazón por abrirte en este espejo, ",
-      heading: "Tu PDF personalizado con tu Medicina ya está viajando a tu bandeja de entrada. Deseo que sus rituales e ideas te traigan muchísima luz hoy.",
+      heading: "Tu PDF personalizado con tu Medicina ya está viajando a tu bandeja de entrada. Deseo que sus activaciones e ideas te traigan muchísima luz hoy.",
       body: "Aunque sintamos que este no es el momento ideal para iniciar el proceso uno a uno de SÉA, me encantaría que sigamos compartiendo espacio.<br><em>Te espero en mi Instagram para seguir habitando esta calma juntas.</em>",
       linkText: "Ir a Instagram de SÉA 🐚",
       linkType: "instagram",
@@ -117,7 +117,7 @@ const FORM_CONFIG = {
       body: "Las plazas para cada edición son muy limitadas.<br>Para que no pierdas tu lugar y pueda guardarte la prioridad de cara a la próxima ronda de SÉA (de forma totalmente gratuita y sin ningún tipo de compromiso), me encantaría que me dejes un mensajito por WhatsApp para dejar tu plaza pre-reservada en la lista de espera preferente.",
       linkText: "Reservar mi plaza preferente sin compromiso 🐚",
       linkType: "waitlist",
-      footer: "Tu PDF personalizado con tu Medicina ya está viajando a tu bandeja de entrada.<br>Deseo que sus rituales e ideas te traigan muchísima luz hoy."
+      footer: "Tu PDF personalizado con tu Medicina ya está viajando a tu bandeja de entrada.<br>Deseo que sus activaciones e ideas te traigan muchísima luz hoy."
     }
   },
 
@@ -234,11 +234,11 @@ const FORM_CONFIG = {
       id: "q8",
       multiple: false,
       noTruth: true,
-      title: `Después de observar TU ESPEJO DE VERDAD y sabiendo que solo tú sabes lo que necesitas, <strong><br><br>8. ¿Cuál de estos cuatro anclajes o medicina sientes que quieres priorizar en tu día?</br></br></strong><br><em>(Selecciona solo una opción)</em>`,
+      title: `Después de observar TU ESPEJO DE VERDAD y sabiendo que solo tú sabes lo que necesitas, <strong><br><br>8. ¿Cuál de estos cuatro anclajes o medicina sientes que quieres priorizar en tu día?</br></br></strong><em>(Selecciona solo una opción)</em>`,
       button: "Mi Medicina",
       options: [
         "CALMA. Para vaciar: Necesito bajar el ritmo de mi cabeza, simplificar mis días y concederme momentos de quietud para volver a escucharme.",
-        "ESTRUCTURA. Para asentar: Necesito aprender a poner límites amables, ordenar mi tiempo y mis prioridades para tener claridad y enfoque en mi día a día.",
+        "ESTRUCTURA. Para enfocar: Necesito aprender a poner límites amables, ordenar mi tiempo y mis prioridades para tener claridad y enfoque en mi día a día.",
         "DISFRUTE. Para sentir: Necesito reconectar con el placer, la intuición, apreciar lo que realmente quiero y aprender a vivir a mi propio ritmo, sin culpa.",
         "SOBERANÍA. Para accionar: Necesito avivar mi fuerza interior, adueñarme de mis elecciones y tomar decisiones firmes y honestas con lo que siento."
       ]
@@ -265,9 +265,9 @@ const FORM_CONFIG = {
       id: "q10",
       multiple: false,
       noTruth: true,
-      title: `<strong>10. Para que estemos completamente alineadas desde el principio: el programa 1 a 1 SÉA (ronda de verano con precio especial de 6 sesiones) requiere una inversión de entre 550€ y 650€, según la modalidad de pago.<br>¿Estás en disposición de asumir esta inversión en tí para transitar este proceso?</strong>`,
+      title: `<strong>10. Para que estemos completamente alineadas desde el principio: el programa 1 a 1 SÉA (ronda de verano con precio especial de 6 sesiones de 1h30min) requiere una inversión de entre 550€ y 650€, según la modalidad de pago.<br>¿Estás en disposición de asumir esta inversión en tí para transitar este proceso?</strong>`,
       options: [
-        "Sí, entiendo el valor de mi bienestar y estoy (o estaré más adelante) lista para invertir en mí.",
+        "Sí, entiendo el valor de mi bienestar y estoy o estaré más adelante (corto o medio plazo) lista para invertir en mí.",
         "En este momento (o a medio plazo) no puedo asumir un compromiso económico de este tipo."
       ]
     },
