@@ -96,7 +96,7 @@ const FORM_CONFIG = {
     ideal: {
       titlePrefix: "TU ESPEJO y TU MEDICINA ya están claros, ",
       heading: "SÉA Esencia es un acompañamiento uno a uno muy exclusivo.<br>Tras leer tus respuestas, siento que estás en el momento ideal para que caminemos juntas.",
-      body: "<em>Me encantaría que me escribas por WhatsApp para que nos conozcamos un poquito más de cerca.</em><br>Si lo sientes, podemos agendar un primer encuentro gratuito (un encuentro de 15 minutos, sin ningún tipo de compromiso) para sentir si estamos en total sintonía y valorar juntas si este es tu espacio.",
+      body: "<em>Me encantaría que me escribas por WhatsApp para que nos conozcamos un poquito más de cerca.</em><br>Si lo sientes, podemos agendar un primer encuentro gratuito de 15 minutos sin ningún tipo de compromiso para sentir si estamos en total sintonía y valorar juntas si este es tu espacio.",
       linkText: "Escribir a Abigeil por WhatsApp 🐚",
       linkType: "whatsapp",
       footer: "Tu PDF personalizado con tu Medicina ya está viajando a tu bandeja de entrada.<br>Deseo que sus activaciones e ideas te traigan muchísima luz hoy."
