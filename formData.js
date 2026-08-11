@@ -265,7 +265,7 @@ const FORM_CONFIG = {
       id: "q10",
       multiple: false,
       noTruth: true,
-      title: `<strong>10. Para que estemos completamente alineadas desde el principio: el programa 1 a 1 SÉA Esencia (ronda de verano con precio especial de 6 sesiones de 1h30min) requiere una inversión de entre 550€ y 650€, según la modalidad de pago.<br>¿Estás en disposición de asumir esta inversión en tí para transitar este proceso?</strong>`,
+      title: `<strong>Para que estemos completamente alineadas desde el principio: el programa 1 a 1 SÉA Esencia (ronda de verano con precio especial de 6 sesiones de 1h30min) requiere una inversión de entre 550€ y 650€, según la modalidad de pago.<br>10. ¿Estás en disposición de asumir esta inversión en tí para transitar este proceso?</strong>`,
       options: [
         "Sí, entiendo el valor de mi bienestar y estoy o estaré más adelante (corto o medio plazo) lista para invertir en mí.",
         "En este momento (o a medio plazo) no puedo asumir un compromiso económico de este tipo."
