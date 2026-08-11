@@ -1,5 +1,5 @@
 const FORM_CONFIG = {
-  appsScriptUrl: "https://script.google.com/macros/s/AKfycbzb17R_p-c8055YXAjahviaz2VthA1f5TAbhBku6G5kw7qaceWpCbqCoVLvtYkMORcH/exec",  
+  appsScriptUrl: "https://script.google.com/macros/s/AKfycbxLpG8iZCaENrth6hWEA2DoB-sqmRwEb-7jDTEn1ay-0xEEErdokDWhsP4BbiYhu43z/exec",  
   whatsappNumber: "34711216249",
   whatsappMessage: "Hola Abigeil, he completado mi ESPEJO DE VERDAD - SÉA Esencia. Me encantaría que charláramos un ratito para conocernos y agendar nuestra sesión de sintonía.",
   waitlistMessage: "Hola Abigeil, he completado mi ESPEJO DE VERDAD y me encantaría que me guardases plaza prioritaria sin compromiso para la próxima ronda de SÉA Esencia.",
