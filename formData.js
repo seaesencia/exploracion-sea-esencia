@@ -45,7 +45,7 @@ const FORM_CONFIG = {
 
   userDataScreen: {
     title: "Para preparar tu espejo personalizado",
-    subtitle: "<em>y que yo pueda enviarte tu PDF con la medicina que elijas al final, cuéntame:</em> <br>Al dejarme tu correo, te enviaré de vez en cuando reflexiones, herramientas prácticas y novedades de SÉA Esencia que sean de relevancia para acompañarte en tu proceso."
+    subtitle: "<em>y que yo pueda enviarte tu PDF con la medicina que elijas al final, cuéntame:</em> <br>"Al dejarme tu correo, te enviaré de vez en cuando reflexiones, herramientas prácticas y novedades de SÉA Esencia que sean de relevancia para acompañarte en tu proceso."</br>
   },
 
   summaryScreen: {
