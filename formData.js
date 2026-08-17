@@ -45,7 +45,7 @@ const FORM_CONFIG = {
 
   userDataScreen: {
     title: "Para preparar tu espejo personalizado",
-    subtitle: "<em>y que yo pueda enviarte tu PDF con la medicina que elijas al final, cuéntame:</em>"
+    subtitle: "<em>y que yo pueda enviarte tu PDF con la medicina que elijas al final, cuéntame:</em> *Al dejarme tu correo, te enviaré de vez en cuando reflexiones, herramientas prácticas y novedades de SÉA Esencia que sean de relevancia para acompañarte en tu proceso."
   },
 
   summaryScreen: {
@@ -87,7 +87,7 @@ const FORM_CONFIG = {
   pauseScreen: {
     paragraphs: [
       "<strong><em>Antes de llegar al final de este viaje, hagamos una pequeña pausa aquí.</em></strong>",
-      "<strong><em>SÉA Esencia es un proceso uno a uno muy íntimo, artesanal y limitado.<br>Para mí es fundamental que sintamos que este es nuestro momento y que estamos completamente en la misma sintonía para caminar juntas.</em></strong>",
+      "<strong><em>SÉA Esencia es un proceso 1 a 1 muy íntimo, artesanal y limitado.<br>Para mí es fundamental que sintamos que este es nuestro momento y que estamos completamente en la misma sintonía para caminar juntas.</em></strong>",
       "<strong><em>Las siguientes dos preguntas son para valorar, con total honestidad, si estamos en el punto perfecto para acompañarte...</em></strong>"
     ]
   },
@@ -95,7 +95,7 @@ const FORM_CONFIG = {
   finalScreens: {
     ideal: {
       titlePrefix: "TU ESPEJO y TU MEDICINA ya están claros, ",
-      heading: "SÉA Esencia es un acompañamiento uno a uno muy exclusivo.<br>Tras leer tus respuestas, siento que estás en el momento ideal para que caminemos juntas.",
+      heading: "SÉA Esencia es un acompañamiento 1 a 1 muy exclusivo.<br>Tras leer tus respuestas, siento que estás en el momento ideal para que caminemos juntas.",
       body: "<em>Me encantaría que me escribas por WhatsApp para que nos conozcamos un poquito más de cerca.</em><br>Si lo sientes, podemos agendar un primer encuentro gratuito de 15 minutos sin ningún tipo de compromiso para sentir si estamos en total sintonía y valorar juntas si este es tu espacio.",
       linkText: "Escribir a Abigeil por WhatsApp 🐚",
       linkType: "whatsapp",
@@ -105,7 +105,7 @@ const FORM_CONFIG = {
     instagram: {
       titlePrefix: "Gracias de corazón por abrirte en este espejo, ",
       heading: "Tu PDF personalizado con tu Medicina ya está viajando a tu bandeja de entrada. Deseo que sus activaciones e ideas te traigan muchísima luz hoy.",
-      body: "Aunque sintamos que este no es el momento ideal para iniciar el proceso uno a uno de SÉA Esencia, me encantaría que sigamos compartiendo espacio.<br><em>Te espero en mi Instagram para seguir habitando esta calma juntas.</em>",
+      body: "Aunque sintamos que este no es el momento ideal para iniciar el proceso 1 a 1 de SÉA Esencia, me encantaría que sigamos compartiendo espacio.<br><em>Te espero en mi Instagram para seguir habitando juntas.</em>",
       linkText: "Ir a Instagram de SÉA Esencia 🐚",
       linkType: "instagram",
       footer: ""
@@ -114,7 +114,7 @@ const FORM_CONFIG = {
     waitlist: {
       titlePrefix: "Honrando tus ritmos y tu momento, ",
       heading: "SÉA Esencia es, ante todo, un espacio de respeto absoluto a tus tiempos.<br>Si sientes que ahora no es el momento pero tienes claro que es un viaje en el que quieres comprometerte un poquito más adelante, podemos cuidar tu lugar desde ya.",
-      body: "Las plazas para cada edición son muy limitadas.<br>Para que no pierdas tu lugar y pueda guardarte la prioridad de cara a la próxima ronda de SÉA Esencia (de forma totalmente gratuita y sin ningún tipo de compromiso), me encantaría que me dejes un mensajito por WhatsApp para dejar tu plaza pre-reservada en la lista de espera preferente.",
+      body: "Las plazas para cada edición son muy limitadas.<br>Para que no pierdas tu lugar y pueda guardarte la prioridad de cara a la próxima ronda de SÉA Esencia (de forma totalmente gratuita y sin ningún tipo de compromiso), me encantaría que me dejes un mensaje por WhatsApp para dejar tu plaza pre-reservada en la lista de espera preferente.",
       linkText: "Reservar mi plaza preferente sin compromiso 🐚",
       linkType: "waitlist",
       footer: "Tu PDF personalizado con tu Medicina ya está viajando a tu bandeja de entrada.<br>Deseo que sus activaciones e ideas te traigan muchísima luz hoy."
@@ -139,7 +139,7 @@ const FORM_CONFIG = {
       type: "question",
       id: "q1",
       multiple: true,
-      title: `<strong>1. ¿Cómo te sientes la mayor parte del tiempo en tu día? Siente tu estado actual.</strong><br><em class="question-note">Puedes marcar varias opciones o matizar tu respuesta en la última casilla.</em>`,
+      title: `<strong>1. ¿Cómo te sientes la mayor parte del tiempo en tu día?</strong><br><em class="question-note">Puedes marcar varias opciones o matizar tu respuesta en la última casilla.</em>`,
       options: [
         "Noto que mi rutina se mueve a un ritmo muy rápido; tiendo a encadenar una tarea con otra y a veces me cuesta concederme el permiso de parar de forma natural.",
         "Siento que tengo muchas ideas, intenciones y frentes abiertos, pero a veces me resulta difícil ordenar mis prioriodades y trasladar esa teoría a mis acciones diarias.",
@@ -168,7 +168,7 @@ const FORM_CONFIG = {
       title: `<strong>3. Cuando te miras al espejo o piensas en quién eres hoy, ¿cómo te sientes contigo misma?</strong>`,
       options: [
         "Suelo exigirme bastante para sostener que todo está bajo control y que todo marcha bien, descuidando a veces mi espacio para mostrar vulnerabilidad o cansancio.",
-        "Me observo de forma muy analítica, conozco bien mis procesos internos, pero a veces me cuesta aceptar mi imagen y mi momento físico actual con total ternura.",
+        "Me observo de forma muy mental y analítica, a veces me mido contra mis propios esquemas o ideales y me cuesta aceptar mi imagen actual con ternura.",
         "Siento cierta distancia; es como si la forma en que me presento ante el mundo perteneciera más al pasado o a un rol aprendido que a mi yo actual.",
         "Me reconozco y valoro el camino de consciencia que he recorrido, aunque busco ganar más confianza para proyectar mi soberanía con seguridad."
       ]
@@ -181,7 +181,7 @@ const FORM_CONFIG = {
       title: `<strong>4. En tu rutina diaria, ¿cómo experimentas tus momentos de autocuidado?</strong>`,
       options: [
         "A veces se sienten como un pendiente más en mi lista; hago yoga, entreno o me cuido pero con cierta prisa mental y pensando en lo siguiente.",
-        "Conozco perfectamente qué hábitos y rutinas me benefician, pero me resulta difícil bajarlas al cuerpo y sostenerlas con disfrute real de cuello para abajo.",
+        "Me cuesta encontrar un ritmo estable; empiezo con muchas ganas cuidándome unos días, pero al primer imprevisto mi rutina se desmorona y me cuesta volver a encarrilarla.",
         "Suelen quedar relegados al final; si me queda un espacio libre, tiendo a consumirlo de forma pasiva en redes o atendiendo cosas de casa o de otros.",
         "Intenciono y disfruto mis espacios de bienestar, pero a menudo siento que el entorno o las obligaciones diarias acaban invadiendo ese rincón de calma."
       ]
@@ -194,9 +194,9 @@ const FORM_CONFIG = {
       title: `<strong>5. Si te detienes a observar tu momento actual, ¿cuál es el tipo de malestar o frustración que notas más presente en tu día a día?</strong>`,
       options: [
         "La sensación de ir siempre un paso por delante de mí misma y la dificultad de relajarme de verdad o de sostener la calma en cuanto decido parar.",
-        "La frustración de tener la teoría impecable en la cabeza, pero sentir que me falta el impulso físico para llevarlo a la práctica con soltura.",
+        "La frustración de tener la teoría impecable en la cabeza, pero sentir que me falta organización y guía para llevarlo a la práctica con soltura.",
         "Una inercia apagada, sintiendo que los días pasan idénticos y que me cuesta tomar decisiones reales sobre mi propio bienestar.",
-        "Una brecha entre mis procesos de crecimiento interno y cómo se materializan de forma firme y sostenida en mi entorno y mis rutinas."
+        "Una brecha entre mis procesos de crecimiento interno y la firmeza con la que sostengo mi visión, siento que dudo al compartir mis decisiones con mi entorno."
       ]
     },
 
@@ -265,7 +265,7 @@ const FORM_CONFIG = {
       id: "q10",
       multiple: false,
       noTruth: true,
-      title: `<strong>Para que estemos completamente alineadas desde el principio: el programa 1 a 1 SÉA Esencia (ronda de verano con precio especial de 6 sesiones de 1h30min) requiere una inversión de entre 550€ y 650€, según la modalidad de pago.<br>10. ¿Estás en disposición de asumir esta inversión en tí para transitar este proceso?</strong>`,
+      title: `<strong>10. Para que estemos completamente alineadas desde el principio: el programa 1 a 1 SÉA Esencia (edición de lanzamiento con precio especial de 6 sesiones de 1h30min) requiere una inversión de entre 550€ y 650€, según la modalidad de pago.<br> ¿Estás en disposición de asumir esta inversión en tí para transitar este proceso?</strong>`,
       options: [
         "Sí, entiendo el valor de mi bienestar y estoy o estaré más adelante (corto o medio plazo) lista para invertir en mí.",
         "En este momento (o a medio plazo) no puedo asumir un compromiso económico de este tipo."
