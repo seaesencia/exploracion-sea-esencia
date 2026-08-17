@@ -142,7 +142,7 @@ const FORM_CONFIG = {
       title: `<strong>1. ¿Cómo te sientes la mayor parte del tiempo en tu día? Siente tu estado actual.</strong><br><em class="question-note">Puedes marcar varias opciones o matizar tu respuesta en la última casilla.</em>`,
       options: [
         "Noto que mi rutina se mueve a un ritmo muy rápido; tiendo a encadenar una tarea con otra y a veces me cuesta concederme el permiso de parar de forma natural.",
-        "Siento que tengo mucha claridad mental sobre lo que me ocurre y lo que necesito, pero a veces me resulta difícil trasladar esa teoría a mis acciones diarias.",
+        "Siento que tengo muchas ideas, intenciones y frentes abiertos, pero a veces me resulta difícil ordenar mis prioriodades y trasladar esa teoría a mis acciones diarias.",
         "Transito mis días en una inercia sutil, cumpliendo con las responsabilidades cotidianas casi de forma mecánica, sin pararme demasiado a decidir el rumbo.",
         "Me cuido y soy consciente de mi camino, pero siento que me vendría bien asentar mis decisiones cotidianas con mayor firmeza y seguridad."
       ]
