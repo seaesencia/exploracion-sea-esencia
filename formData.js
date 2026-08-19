@@ -126,7 +126,7 @@ const FORM_CONFIG = {
     q9A_q10B: "instagram",
     q9B_q10A: "waitlist",
     q9B_q10B: "instagram",
-    q9C_q10A: "ideal",
+    q9C_q10A: "waitlist",
     q9C_q10B: "instagram",
     fallback: "ideal"
   },
