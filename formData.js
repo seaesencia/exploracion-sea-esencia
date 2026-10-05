@@ -1,8 +1,8 @@
 const FORM_CONFIG = {
   appsScriptUrl: "https://script.google.com/macros/s/AKfycbzYmqFKfApViRkRyQL9yJMgg5kCv1XxPlJ3Vcq6GXPNKJJfRlVO42aUV2ZNjTPYu1w_/exec",  
   whatsappNumber: "34711216249",
-  whatsappMessage: "Hola Abigeil, he completado mi ESPEJO DE VERDAD - SÉA Esencia. Me encantaría que charláramos un ratito para conocernos y agendar nuestra sesión de sintonía.",
-  waitlistMessage: "Hola Abigeil, he completado mi ESPEJO DE VERDAD y me encantaría que me guardases plaza prioritaria sin compromiso para la próxima ronda de SÉA Esencia.",
+  whatsappMessage: "Hola Abigeil, he completado mi ESPEJO DE VERDAD - SÉA Esencia. Me encantaría saber más sobre la sesión GIRO.",
+  waitlistMessage: "Hola Abigeil, he completado mi ESPEJO DE VERDAD y me encantaría saber más sobre el acompañamiento OCUPA TU LUGAR.",
   instagramUrl: "https://www.instagram.com/sea.esencia/",
 
   buttons: {
@@ -88,16 +88,16 @@ const FORM_CONFIG = {
     paragraphs: [
       "<strong><em>Antes de llegar al final de este viaje, hagamos una pequeña pausa aquí.</em></strong>",
       "<strong><em>SÉA Esencia es un proceso 1 a 1 muy íntimo, artesanal y limitado.<br>Para mí es fundamental que sintamos que este es nuestro momento y que estamos completamente en la misma sintonía para caminar juntas.</em></strong>",
-      "<strong><em>Las siguientes dos preguntas son para valorar, con total honestidad, si estamos en el punto perfecto para acompañarte...</em></strong>"
+      "<strong><em>Las siguientes dos preguntas son para ayudarte a reconocer, con total honestidad, qué tipo de espacio puede tener más sentido para ti ahora y si este es tu momento para dar ese paso.</em></strong>"
     ]
   },
 
   finalScreens: {
-    ideal: {
+    giro: {
       titlePrefix: "TU ESPEJO y TU MEDICINA ya están claros, ",
-      heading: "SÉA Esencia es un acompañamiento 1 a 1 muy exclusivo.<br>Tras leer tus respuestas, siento que estás en el momento ideal para que caminemos juntas.",
-      body: "<em>Me encantaría que me escribas por WhatsApp para que nos conozcamos un poquito más de cerca.</em><br>Si lo sientes, podemos agendar un primer encuentro gratuito de 15 minutos sin ningún tipo de compromiso para sentir si estamos en total sintonía y valorar juntas si este es tu espacio.",
-      linkText: "Escribir a Abigeil por WhatsApp 🐚",
+      heading: "Y parece que hoy hay algo concreto que está pidiendo un giro.",
+      body: "<em>Por tus respuestas, parece que ahora mismo hay algo concreto que está pidiendo tu atención: una situación, una decisión, un límite, una conversación...</em><br><strong>GIRO es una sesión individual de 90 minutos para parar, ir a la raíz, mirar lo que está pasando desde otra perspectiva y elegir cómo quieres responder desde un lugar más tuyo.</strong><br><br><strong>GIRO · 90min· 120 €</strong><br><br>Si lo sientes, me encantará que me escribas por WhatsApp y veamos juntas si GIRO es lo que necesitas ahora.",
+      linkText: "Quiero dar un GIRO 🐚",
       linkType: "whatsapp",
       footer: "Tu PDF personalizado con tu Medicina ya está viajando a tu bandeja de entrada.<br>Deseo que sus activaciones e ideas te traigan muchísima luz hoy."
     },
@@ -105,30 +105,30 @@ const FORM_CONFIG = {
     instagram: {
       titlePrefix: "Gracias de corazón por abrirte en este espejo, ",
       heading: "Tu PDF personalizado con tu Medicina ya está viajando a tu bandeja de entrada. Deseo que sus activaciones e ideas te traigan muchísima luz hoy.",
-      body: "Aunque sintamos que este no es el momento ideal para iniciar el proceso 1 a 1 de SÉA Esencia, me encantaría que sigamos compartiendo espacio.<br><em>Te espero en mi Instagram para seguir habitando juntas.</em>",
+      body: "Aunque sientas que ahora mismo no necesitas dar un paso más, me encantaría que sigamos compartiendo espacio.<br><em>Te espero en mi Instagram para seguir habitando juntas.</em>",
       linkText: "Ir a Instagram de SÉA Esencia 🐚",
       linkType: "instagram",
       footer: ""
     },
 
-    waitlist: {
-      titlePrefix: "Honrando tus ritmos y tu momento, ",
-      heading: "SÉA Esencia es, ante todo, un espacio de respeto absoluto a tus tiempos.<br>Si sientes que ahora no es el momento pero tienes claro que es un viaje en el que quieres comprometerte un poquito más adelante, podemos cuidar tu lugar desde ya.",
-      body: "Las plazas para cada edición son muy limitadas.<br>Para que no pierdas tu lugar y pueda guardarte la prioridad de cara a la próxima ronda de SÉA Esencia (de forma totalmente gratuita y sin ningún tipo de compromiso), me encantaría que me dejes un mensaje por WhatsApp para dejar tu plaza pre-reservada en la lista de espera preferente.",
-      linkText: "Reservar mi plaza preferente sin compromiso 🐚",
+    lugar: {
+      titlePrefix: "TU ESPEJO Y TU MEDICINA YA ESTÁN CLAROS, ",
+      heading: "Y parece que hoy estás preparada para algo más profundo.<br>Por tus respuestas, una parte de ti que quiere <strong>conocerse mejor, priorizarse, recuperar su criterio y empezar a vivir desde un lugar más propio.</strong>",
+      body: "<strong>Para eso existe OCUPA TU LUGAR.</strong><br>Un proceso individual de 6 sesiones para conocerte, elegirte y construir desde ti la vida que quieres vivir.<br><br><strong>OCUPA TU LUGAR · 660 € · proceso completo · 6 sesiones · 3-4 meses</strong><br><br>Si lo sientes, me encantará que me escribas por WhatsApp para conocernos un poquito más de cerca y valorar juntas si este es tu momento para empezar.",
+      linkText: "Quiero OCUPAR MI LUGAR 🐚",
       linkType: "waitlist",
       footer: "Tu PDF personalizado con tu Medicina ya está viajando a tu bandeja de entrada.<br>Deseo que sus activaciones e ideas te traigan muchísima luz hoy."
     }
   },
 
   finalLogic: {
-    q9A_q10A: "ideal",
+    q9A_q10A: "giro",
     q9A_q10B: "instagram",
-    q9B_q10A: "waitlist",
+    q9B_q10A: "lugar",
     q9B_q10B: "instagram",
-    q9C_q10A: "waitlist",
+    q9C_q10A: "instagram",
     q9C_q10B: "instagram",
-    fallback: "ideal"
+    fallback: "lugar"
   },
 
   screens: [
@@ -252,11 +252,11 @@ const FORM_CONFIG = {
       id: "q9",
       multiple: false,
       noTruth: true,
-      title: `<strong>9. ¿En qué momento de tu vida te encuentras para iniciar este viaje de transformación interna de 3 meses?</strong>`,
+      title: `<strong>9. ¿Qué sientes que necesitas hoy para dar el siguiente paso en tu camino?</strong>`,
       options: [
-        "Estoy lista para priorizarme, comprometerme conmigo misma y dar el paso ahora.",
-        "Siento que podría ser mi camino, pero prefiero esperar unos meses.",
-        "Solo quería hacer la exploración por curiosidad."
+        "Siento que hay una situación concreta que quiero mirar de otra manera: una decisión, un límite, una conversación, una relación o algo que lleva tiempo ocupando espacio en mi cabeza.",
+        "Siento que necesito algo más profundo. Quiero conocerme mejor, priorizarme, recuperar mi criterio y empezar a llevar todo eso a mi forma de vivir y de relacionarme conmigo misma.",
+        "Ahora mismo siento que necesito seguir observándome, escucharme y darme un poco más de tiempo antes de decidir cuál es mi siguiente paso."
       ]
     },
 
@@ -265,10 +265,11 @@ const FORM_CONFIG = {
       id: "q10",
       multiple: false,
       noTruth: true,
-      title: `<strong>10. Para que estemos completamente alineadas desde el principio: el programa 1 a 1 SÉA Esencia (edición de lanzamiento con precio especial de 6 sesiones de 1h30min) requiere una inversión de entre 550€ y 650€, según la modalidad de pago.<br> ¿Estás en disposición de asumir esta inversión en tí para transitar este proceso?</strong>`,
+      title: `<strong>10. Si sabes cúal podría ser tu siguiente paso ¿en qué momento sientes que estás para invertir en ti?</strong>`,
       options: [
-        "Sí, entiendo el valor de mi bienestar y estoy o estaré más adelante (corto o medio plazo) lista para invertir en mí.",
-        "En este momento (o a medio plazo) no puedo asumir un compromiso económico de este tipo."
+        "Estoy preparada para dar ese paso. Siento que ha llegado mi momento y quiero comprometerme conmigo misma.",
+        "Sé que quiero hacerlo, pero ahora mismo necesito esperar un poco más antes de dar el paso."
+        "No siento que sea mi momento, pero me llevo esta exploración conmigo."
       ]
     },
 
