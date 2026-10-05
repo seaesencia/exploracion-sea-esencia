@@ -87,7 +87,7 @@ const FORM_CONFIG = {
   pauseScreen: {
     paragraphs: [
       "<strong><em>Antes de llegar al final de este viaje, hagamos una pequeña pausa aquí.</em></strong>",
-      "<strong><em>SÉA Esencia es un proceso 1 a 1 muy íntimo, artesanal y limitado.<br>Para mí es fundamental que sintamos que este es nuestro momento y que estamos completamente en la misma sintonía para caminar juntas.</em></strong>",
+      "<strong><em>SÉA Esencia es un espacio íntimo, artesanal y limitado.<br>Para mí es fundamental que sintamos que este es nuestro momento y que estamos completamente en la misma sintonía para caminar juntas.</em></strong>",
       "<strong><em>Las siguientes dos preguntas son para ayudarte a reconocer, con total honestidad, qué tipo de espacio puede tener más sentido para ti ahora y si este es tu momento para dar ese paso.</em></strong>"
     ]
   },
