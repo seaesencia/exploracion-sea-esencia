@@ -268,7 +268,7 @@ const FORM_CONFIG = {
       title: `<strong>10. Si sabes cúal podría ser tu siguiente paso ¿en qué momento sientes que estás para invertir en ti?</strong>`,
       options: [
         "Estoy preparada para dar ese paso. Siento que ha llegado mi momento y quiero comprometerme conmigo misma.",
-        "Sé que quiero hacerlo, pero ahora mismo necesito esperar un poco más antes de dar el paso."
+        "Sé que quiero hacerlo, pero ahora mismo necesito esperar un poco más antes de dar el paso.",
         "No siento que sea mi momento, pero me llevo esta exploración conmigo."
       ]
     },
